@@ -1,3 +1,6 @@
 [submodule "common/recorder"]
 	path = common/recorder
 	url = https://github.com/c3d/recorder.git
+[submodule "common/sm2-EVP"]
+	path = common/sm2-EVP
+	url = https://github.com/Sovea/sm2-EVP.git

@@ -40,7 +40,11 @@ spice_common_sources = [
   'utils.c',
   'utils.h',
   'verify.h',
-  'recorder.h'
+  'recorder.h',
+  'sm2-EVP/c/sm2.h',
+  'sm2-EVP/c/sm2.c',
+  'sm2-EVP/cpp/sm2.h',
+  'sm2-EVP/cpp/sm2.cpp',
 ]
 
 if get_option('instrumentation') == 'recorder'
